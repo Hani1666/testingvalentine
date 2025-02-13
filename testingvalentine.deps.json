@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "testingvalentine/1.0.0": {
+        "runtime": {
+          "testingvalentine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "testingvalentine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

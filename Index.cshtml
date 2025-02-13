@@ -1,0 +1,60 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('gallery')">Gallery</a></li>
+        </ul>
+    </nav> 
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <img src="~/css/images/cat-spinning.gif" alt="Spinning Black and White Cat" class="cat-image">
+            <h1>Will you be my Valentine? ❤️</h1>
+            <div class="buttons">
+                <button id="yesBtn">Yes</button>
+                <button id="noBtn">No</button>
+            </div>
+            <p id="response"></p>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Hidden by Default) -->
+    <section id="gallery" class="section hidden">
+        <h2>Moments Together! 📸</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="~/css/images/WhatsApp Image 2025-02-14 at 12.18.20 AM.jpeg" alt="Cat 1">
+                <p>Every year i will add a photo here! 🐱</p>
+            </div>
+            <div class="gallery-item">
+                <img src="~/css/images/WhatsApp Image 2025-02-14 at 12.18.53 AM.jpeg" alt="Cat 3">
+                <p> Babies  💤</p>
+            </div>
+            <div class="gallery-item">
+                <img src="~/css/images/WhatsApp Image 2025-02-14 at 12.18.29 AM.jpeg" alt="Cat 2">
+                <p>More miri trips pls 😻</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
